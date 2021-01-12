@@ -1,3 +1,3 @@
-module github.com/switcGH/quadtree-module
+module github.com/switchGH/quadtree-module
 
 go 1.14
