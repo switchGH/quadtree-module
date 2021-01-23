@@ -6,10 +6,9 @@ import (
 
 // 座標
 type Point struct {
-	InstitutionID   int64   // 施設ID
-	InstitutionName string  // 施設名
-	X               float64 // 緯度lng
-	Y               float64 // 経度lat
+	ID int64   // ID
+	X  float64 // 緯度lng
+	Y  float64 // 経度lat
 }
 
 // 木の頂点。1つの領域を示す。
