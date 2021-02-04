@@ -110,7 +110,7 @@ func (t *Tree) Path(p *Point, depth int32) (*Node, string) {
 	}
 
 	builder := &strings.Builder{}
-	label := "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz{|}"
+	label := "123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz{|}"
 	for node.Depth < depth {
 		for idx, ch := range node.Children() {
 			if ch.IsInside(p) {
